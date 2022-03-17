@@ -10,7 +10,7 @@ The service uses gmail's simple email protocol to send email.
 
 **How to use**
 
-First you need to put your own credentials on `springEmailService/src/main/resources/application.properties`. The you need to create a POST request to `http://localhost:8080/sending-email` with the following body:
+First you need to put your own credentials on `springEmailService/src/main/resources/application.properties`. Then you need to create a POST request to `http://localhost:8080/sending-email` with the following body:
 ```json
 {
   "ownerRef" : "Thiago",
