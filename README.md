@@ -15,5 +15,5 @@ First you need to put your own credentials on `springEmailService/src/main/resou
   "text": "Yep Buddy! We gonna do it!"
 }
 ```
-And that's it, the email was to sent to 'destEmail@gmail.com'!
+And that's it, the email was to sent to _destEmail@gmail.com_!
 
