@@ -6,7 +6,7 @@
 ![email](https://img.shields.io/badge/Made%20with-Spring%20mail-brightgreen)
 
 This is an automated email sending service using spring environment, developed during a course on microservices.
-The service uses gmail's simple email protocol to send email. 
+The service uses gmail service to send email. 
 
 **Project setup**
 
