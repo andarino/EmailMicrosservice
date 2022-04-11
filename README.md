@@ -20,7 +20,7 @@ First you need to put your own Gmail API Developer Key into `springEmailService/
   "text": "Yep Buddy! We gonna do it!"
 }
 ```
-And that's it, the email was to sent to _destEmail@gmail.com_!
+And that's it! the email was sent to _destEmail@gmail.com_!
 
 ## POV: Example of usage
 * Making the request
