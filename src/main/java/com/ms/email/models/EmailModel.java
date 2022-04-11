@@ -1,5 +1,6 @@
 package com.ms.email.models;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 
 import javax.persistence.Column;
@@ -13,7 +14,7 @@ import com.ms.email.enums.StatusEmail;
 
 @Entity
 @Table(name = "TB_EMAIL")
-public class EmailModel {
+public class EmailModel implements Serializable{
 	private static final long serialVersionUID = 1L;
 	
 	@Id 
@@ -27,6 +28,7 @@ public class EmailModel {
 	private String text;
 	private LocalDate sendDateEmail;
 	private StatusEmail statusEmail;
+	
 	public Long getEmailId() {
 		return emailId;
 	}
