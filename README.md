@@ -8,9 +8,9 @@
 This is an automated email sending service using spring environment, developed during a course on microservices.
 The service uses gmail's simple email protocol to send email. 
 
-**How to use**
+**Project setup**
 
-First you need to put your own credentials on `springEmailService/src/main/resources/application.properties`. Then you need to create a POST request to `http://localhost:8080/sending-email` with the following body:
+First you need to put your own Gmail API Developer Key into `springEmailService/src/main/resources/application.properties`. Then you need to create a POST request to `http://localhost:8080/sending-email` with the following body:
 ```json
 {
   "ownerRef" : "Thiago",
