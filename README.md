@@ -22,3 +22,12 @@ First you need to put your own Gmail API Developer Key into `springEmailService/
 ```
 And that's it, the email was to sent to _destEmail@gmail.com_!
 
+##POV: Example of usage
+* Making the request
+  ![req](https://github.com/andarino/EmailMicrosservice/blob/main/img/reqPost.png)
+  
+* Response from server with status _SENT_
+  ![res](https://github.com/andarino/EmailMicrosservice/blob/main/img/sent.png)
+ 
+* Email delivered
+ ![delivered](https://github.com/andarino/EmailMicrosservice/blob/main/img/delivered.png)
